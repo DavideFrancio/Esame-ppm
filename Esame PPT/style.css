@@ -1,0 +1,128 @@
+body {
+    font-family: unify sans,Helvetica,Arial,sans-serif;
+}
+
+h1{
+    padding:0 10px;
+}
+
+.page {
+    position:relative;
+}
+
+.game{
+    display: flex;
+    position:relative;
+    z-index:1;
+}
+
+.p1-section {
+    height: 100%;
+    width: 50%;
+    padding: 20px 50px;
+    position: relative;
+    z-index: 1;
+}
+
+.split {
+    background-color: #b2b2b2;
+    width: 3px;
+    margin: 7px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.p2-section {
+    height: 100%;
+    width: 50%;
+    padding: 20px 50px;
+    position: relative;
+    z-index: 1;
+}
+
+.game_over{
+    position: relative;
+    z-index:2;
+    border: 1px solid gray;
+    height:500px;
+    width:700px;
+    border-radius: 10px;
+    background: white;
+    margin:auto;
+    display:none;
+    top: -600px;
+}
+
+.go_container{
+    margin: auto;
+}
+
+.w_l{
+    font-size: 32px;
+    text-align:center;
+}
+
+.image{
+    width:180px;
+    height:180px;
+    margin: auto;
+}
+
+#table{
+    margin: auto;
+    padding: 30px 0;
+    position:relative;
+    z-index:1;
+}
+
+.tile1, .tile2, .tile3, .tile4, .tile5, .tile6, .tile7, .tile8, .tile9 {
+    display: table-cell;
+    width: 180px;
+    height: 180px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.tile1, .tile10 { 
+    background-position: left top;
+}
+
+.tile2, .tile11{
+    background-position: center top;
+}
+
+.tile3, .tile12{
+    background-position: right top;
+}
+
+.tile4, .tile13 {
+    background-position: left center;
+}
+
+.tile5, .tile14 {
+    background-position: center center;
+}
+
+.tile6, .tile15 {
+    background-position: right center;
+}
+
+.tile7, .tile16 {
+    background-position: left bottom;
+}
+
+.tile8, .tile17 {
+    background-position: center bottom;
+}
+
+.tile9, .title18 {
+    background: white;
+}
+
+.tile10, .tile11, .tile12, .tile13, .tile14, .tile15, .tile16, .tile17, .tile18 {
+    display: table-cell;
+    width: 180px;
+    height: 180px;
+    border: 1px solid white;
+    cursor: pointer;
+}
